@@ -14,12 +14,17 @@ Uses Docker images which support Raspberry Pi based on the official images:
 
 ## Setup
 
-1. Install [Docker](http://docker.io) on Raspberry Pi.
-2. Install [Docker-compose](http://docs.docker.com/compose/install/) on Raspberry Pi.
-3. Clone this repository on Raspberry Pi.
+Set right permissions for `rpi-docker-elk-installation.sh` just by typing:
 
-*NOTE*: Give a try to [HypriotOS](http://blog.hypriot.com/) if you want to easily install Docker on your Raspberry Pi.
+```bash
+$ sudo chmod +x rpi-docker-elk-installation.sh
+```
 
+Execute the script with:
+```bash
+$ ./rpi-docker-elk-installation.sh
+```
+Enjoy the automatic installation!
 
 # Usage
 
